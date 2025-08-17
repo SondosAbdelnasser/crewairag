@@ -1,3 +1,4 @@
+basic project () utilize various agents, tools, and tasks within CrewAI to perform specific operations, such as analyzing PDFs and YouTube channels, extracting information, and generating structured outputs.
 Agents and Tasks
 PDF Processing Agents and Tasks
 Agents
