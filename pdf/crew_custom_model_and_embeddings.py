@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 pdf_search_tool = PDFSearchTool(
     pdf="./example_home_inspection.pdf",
     config= dict(
-        llm=dict(provider="anthropic",config=dict(model="claude-3-haiku")),
+        llm=dict(provider="ollamac",config=dict(model="llama3")),
         embedder=dict(provider="ollama",config=dict(model="all-minilm")),
     )
 
